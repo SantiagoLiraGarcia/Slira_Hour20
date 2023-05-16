@@ -157,7 +157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   manager: {fileID: 530041583}
   normalMat: {fileID: 2100000, guid: 38bcda417e203744d89feb1e91554572, type: 2}
-  phasedMat: {fileID: 0}
+  phasedMat: {fileID: 2100000, guid: d4dafa83c5033a048b7298042c384cbd, type: 2}
   bounds: 3
   strafeSpeed: 4
   phaseCooldown: 2
@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 307672966}
   - component: {fileID: 307672965}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GameCritque
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -519,20 +519,20 @@ MonoBehaviour:
     List three things that would give it a
     "wow" factor.
 
-    3) Adding details/purpose to the obstacles and powerups.
-    Adding a small simple story. Adding sounds and music
+    3) Adding details/purpose to the obstacles and powerups. Adding
+    a small simple story. Adding sounds and music
 
-    What parts of the game
-    are fun? 3 items
+    What parts of the game are
+    fun? 3 items
 
-    4) The aesthetic is fun. Making close calls is fun, and
-    aiming for the high score is fun.
+    4) The aesthetic is fun. Making close calls is fun, and aiming
+    for the high score is fun.
 
-    What parts of the game are tedious? 3
-    items
+    What parts of the game are tedious? 3 items
 
-    5) The hitbox on the powerups are tedious. The space feels very limited,
-    could use more. The character feels a bit too slow.'
+    5)
+    The hitbox on the powerups are tedious. The space feels very limited, could use
+    more. The character feels a bit too slow.'
 --- !u!222 &538299387
 CanvasRenderer:
   m_ObjectHideFlags: 0
